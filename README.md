@@ -3,18 +3,32 @@
 A modern, production-ready native Android news application built with **Jetpack Compose**, **Clean Architecture**, **MVVM**, and **Room Database** following an **Offline-First** strategy. Data is powered by the [NewsAPI.org](https://newsapi.org) REST API.
 
 ---
+## Screenshots
 
+### Main FLow
 <p align="center">
     <img src="screenshots/categories_screen.png" width="200"/>
     <img src="screenshots/news_sources.png" width="200"/>
     <img src="screenshots/news_articles.png" width="200"/>
     <img src="screenshots/article_detail.png" width="200"/>
+</p>
+
+### Search Capability and Pagination
+<p align="center">
     <img src="screenshots/endless_scroll_pagination.png" width="200"/>
     <img src="screenshots/search_capability.png" width="200"/>
     <img src="screenshots/empty_state.png" width="200"/>
-    <img src="screenshots/offline_first_handling.png" width="200"/>
-    <img src="screenshots/offline_without_cache.png" width="200"/>
 </p>
+
+### Offline First Handling
+<p align="center">
+    <img src="screenshots/offline_first_handling.png" width="200"/>
+    <img src="screenshots/offline_without_cache.png" width="200"/>>
+</p>
+
+
+
+---
 
 ## Features & User Stories
 
