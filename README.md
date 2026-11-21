@@ -4,6 +4,8 @@ A modern, production-ready native Android news application built with **Jetpack 
 
 ---
 
+![Categories Screen](screenshoots/categories_screen.png)
+
 ## Features & User Stories
 
 | # | User Story | Description | Status |
