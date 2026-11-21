@@ -15,6 +15,7 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
@@ -78,8 +79,7 @@ fun CategoryItemCard(
     Card(
         modifier = modifier
             .fillMaxWidth()
-            .height(140.dp)
-            .clickable(onClick = onClick),
+            .height(140.dp),
         shape = RoundedCornerShape(16.dp),
         elevation = CardDefaults.cardElevation(defaultElevation = 4.dp),
         colors = CardDefaults.cardColors(
@@ -88,6 +88,8 @@ fun CategoryItemCard(
     ) {
         Column(
             modifier = Modifier
+                .clip(RoundedCornerShape(16.dp))
+                .clickable(onClick = onClick)
                 .fillMaxSize()
                 .padding(16.dp),
             verticalArrangement = Arrangement.SpaceBetween
