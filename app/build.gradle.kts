@@ -56,11 +56,6 @@ dependencies {
     implementation(libs.androidx.room.paging)
     ksp(libs.androidx.room.compiler)
 
-    // Hilt
-    implementation(libs.hilt.android)
-    ksp(libs.hilt.compiler)
-    implementation(libs.androidx.hilt.navigation.compose)
-
     // Retrofit & OkHttp
     implementation(libs.retrofit)
     implementation(libs.retrofit.converter.gson)
